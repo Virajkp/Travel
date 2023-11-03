@@ -1,5 +1,5 @@
 package application;
-
+//This file is the getter and setter methods for all of the buttons.
 public abstract class Travel {
 
 	protected String country;
@@ -11,7 +11,7 @@ public abstract class Travel {
 	protected double cost;
 	protected String travelType;
 	private int travelMileage;
-
+	//This method sets all of the data that is given by the txt file.
 	public Travel(String travelType, String country, String city, String travelDate, String returnDate, String days,
 			String hotel, String cost, String travelMileage) {
 		this.country = country;
@@ -96,7 +96,7 @@ public abstract class Travel {
 	public double getcost() {
 		return cost;
 	}
-
+	//This method prints out all of the data given when the button for it is pressed.
 	public String print() {
 		String total;
 		total = "TravelType: " + travelType+"\n";
