@@ -1,5 +1,6 @@
 package application;
-
+/*This file is specifcally for land travel. It uses the Travel.java file as a base 
+and add the extra methods that are specific to the land type of travel.*/
 public class LandTravel extends Travel {
 	String carType;
 
