@@ -1,5 +1,6 @@
 package application;
-//This file is the getter and setter methods for all of the buttons.
+/*This file is the getter and setter methods for all of the buttons
+Where the information is similar between the air and land type of travel.*/
 public abstract class Travel {
 
 	protected String country;
