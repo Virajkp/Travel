@@ -1,5 +1,5 @@
 package application;
-
+//This file is where the file is grabbed and the information in it is cut up.
 import java.io.*;
 
 public class ReadTextFile {
@@ -10,6 +10,8 @@ public class ReadTextFile {
 	public ReadTextFile(String str){
 		filename = str;
 	}
+	/*This class is how the file is opened, based on the information that is 
+ entered in the GUI. The txt file needs to be located in the src folder with all the other files.*/
 	public void open() {
 		try {
 			reader = new BufferedReader(new FileReader(filename));
@@ -18,6 +20,7 @@ public class ReadTextFile {
 		    e.printStackTrace();
 		}
 	}
+	//This method cuts up the data in the file using the "," dilimiter.
 	public void read() {
 		int number=0;
 		String line = "";
@@ -37,6 +40,7 @@ public class ReadTextFile {
 				System.out.println(info[j]);
 		}
 	}
+	//This method grabs all of the data from the file.
 	public String readline() {
 		String line = "";
 			
