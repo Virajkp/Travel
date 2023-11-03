@@ -1,5 +1,5 @@
 package application;
-
+//This is where the program is run from with the Main method.
 import javafx.application.Application;
 import javafx.stage.Stage;
 import javafx.scene.Scene;
@@ -13,7 +13,8 @@ import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
 import javafx.scene.control.Alert;
 import javafx.scene.control.Alert.AlertType;
-
+/*This class is where the GUI is created based on the sized defined. This class also includes
+all of the buttons that displied and what happens when they are pressed.*/ 
 public class MyTravelGUI extends Application {
 	private TextArea Output;
 	private TextField Accept;
@@ -120,7 +121,7 @@ public class MyTravelGUI extends Application {
 		applicationStage.setTitle("Viraj Patel");
 		applicationStage.show();
 	}
-
+//The main method.
 	public static void main(String[] args) {
 		launch(args);
 	}
