@@ -1,5 +1,6 @@
 package application;
-
+/*This file is specifcally for Air travel. It uses the Travel.java file as a base 
+and add the extra methods that are specific to the air type of travel.*/
 public class AirTravel extends Travel {
 
 	private String airline;
