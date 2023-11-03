@@ -1,9 +1,11 @@
 package application;
-
+/*This file is where all of the data is organized based on the type of travel. 
+Also where some of the general print statements are for the data.*/
 public class MyTravel {
 
 	Travel myTravel[];
-
+/*This method cuts up the data and checks what type of travel it is air or land 
+and based on the will organize based on the corrisponding array.*/
 	void init(String input) {
 		String line;
 		int index = 0;
